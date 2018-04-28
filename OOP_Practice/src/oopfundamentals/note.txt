@@ -1,0 +1,52 @@
+What is class
+
+Class is Blue print or Templete or Description of Objects
+
+Syntax
+
+class <classname>
+{
+// instance variables
+
+// methods
+}
+
+class Employee
+{
+int eid;
+String ename;
+String mobile;
+String email;
+double salary;
+String designation;
+
+// operations
+
+public void getEmployeeDetails()
+{
+System.out.println(eid+" "+ename+""+mobile+""+email+""+salary+""+designation);
+}
+
+
+
+}
+
+What is an Object
+
+instance of class
+Entity(Physical or Conceptual) which has some common properties and Operations
+
+Object Creation Syntax
+
+
+1) <type> objectreferencename;
+
+Employee e;  // declation
+
+
+objectreference=new Employee()// constructor
+
+
+Encapsulation 
+
+wrapping of data and methods in to single unit 

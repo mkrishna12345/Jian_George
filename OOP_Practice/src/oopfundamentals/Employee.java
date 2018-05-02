@@ -1,6 +1,13 @@
 package oopfundamentals;
 
-public class Employee {
+public  class Employee {
+	
+	
+	
+	
+	
+	
+	
 	// instance 
 	private int eid;
 	private String ename;
@@ -10,7 +17,19 @@ public class Employee {
 	private double salary;
 	private String designation;
 	// class variable
-	private static String company="Wipro";
+	public  static String company="Wipro";
+	
+	/*
+	 *  static varibles
+	 *  static methods
+	 *  
+	 *  static block
+	 *  
+	 *  
+	 *  static classes(inner classes)
+	 */
+	
+	
 	
 	/*public 
 	 * private 
@@ -66,9 +85,16 @@ public class Employee {
 	}
 	
 	
-	
+	// instance 
 	public void getEmployeeDetails()
 	{
+	
 	System.out.println(eid+" "+ename+""+mobile+""+email+""+salary+""+designation+" "+company);
+	}
+	
+	
+	public static void wishMe()
+	{
+		System.out.println("Good Morning");
 	}
 }

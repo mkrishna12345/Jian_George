@@ -50,3 +50,37 @@ objectreference=new Employee()// constructor
 Encapsulation 
 
 wrapping of data and methods in to single unit 
+
+1) Class
+2) Object
+
+3) How To create classes and Objects
+
+4) OOP Programing
+
+5) this
+6) static 
+
+Encapsulation
+
+
+7)  Poly Morphysm
+    
+    
+    Taking many forms
+    
+    ability to take many forms
+    
+    
+    x---> IT Manager
+    x---> Developer
+    x---> Tester
+    x---> Project Manager
+    
+    
+    1) Compile Time  PolyMorphysm/ Overloading(with in the single class)
+    
+        
+    2) Run Time Poly Morphysm/ overriding(with in the sub classes)
+
+

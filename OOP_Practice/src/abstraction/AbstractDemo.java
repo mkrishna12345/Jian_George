@@ -23,6 +23,9 @@ public class AbstractDemo {
 		
 		Bank b1=new ICICIBank();
 		b1.deposit(1234, 50000);
+		
+		Speeker s=new Politician();
+		s.speek();
 	}
 
 }

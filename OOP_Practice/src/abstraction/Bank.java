@@ -11,7 +11,7 @@ public abstract class Bank {
 	
 	public abstract void getROI();
 	// deposit
-	
+	// 0-100
 	// concrete method
 	public void deposit(int accountNumber,double amount)
 	{

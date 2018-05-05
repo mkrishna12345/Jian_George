@@ -4,9 +4,9 @@ public class RegularEmployee extends Employee{
 	
 	private double salary;
 	private double bonus;
-	public RegularEmployee(int eid, String ename, double salary, double bonus) {
+	public RegularEmployee(int eid, String ename, double salary, double bonus,Address address) {
 		
-		super(eid, ename);
+		super(eid, ename, address);
 		  //super constructor
 		
 		

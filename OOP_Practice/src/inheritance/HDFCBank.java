@@ -2,7 +2,8 @@ package inheritance;
 
 public class HDFCBank extends Bank {
 
-	
+	// IS-A
+	// HAS-A
 	// override
 	
 	public int getROI()

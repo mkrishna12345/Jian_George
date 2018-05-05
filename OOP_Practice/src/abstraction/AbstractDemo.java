@@ -14,6 +14,11 @@ public class AbstractDemo {
 		Bank b;
 		b=new ICICIBank();
 		b.withdraw(123, 20000.00);
+		
+		/*
+		 * All the un implemented methods of abstract class should be implemented in
+		 * thier sub classes
+		 */
 	}
 
 }

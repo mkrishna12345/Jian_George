@@ -18,7 +18,11 @@ public class Bank {
 			}
 			else
 			{
-				System.out.println("InSufficint Balance");
+				//System.out.println("InSufficint Balance");
+				//System.out.println(10/0);
+				
+				InsufficientBalance isf=new InsufficientBalance();
+				throw isf;
 			}
 		}
 		else
